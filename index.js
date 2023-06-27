@@ -29,7 +29,7 @@ fetch('https://api.coingecko.com/api/v3/simple/price?ids=stellar&vs_currencies=e
     document.getElementById('xlmPriceElement4').textContent = "Valor: " + finalvalue4 + " euros.";
 
     //Susana
-    var xlmamount5 = 118.3815;
+    var xlmamount5 = 1387.6909;
     document.getElementById('xlmAmountElement5').textContent = "Quantidade : " + xlmamount5 + " XLM.";
     var finalvalue5 = parseFloat((xlmamount5 * xlmPrice).toFixed(2));
     document.getElementById('xlmPriceElement5').textContent = "Valor: " + finalvalue5 + " euros.";
