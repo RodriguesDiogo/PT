@@ -5,11 +5,11 @@ fetch('https://api.coingecko.com/api/v3/simple/price?ids=stellar&vs_currencies=e
     console.log('XLM Price:', xlmPrice);
 
     //Diogo
-    var xlmamount1 = 21537.6047;
+    var xlmamount1 = 22879.7162;
     document.getElementById('xlmAmountElement1').textContent = "Quantidade : " + xlmamount1 + " XLM.";
     var finalvalue1 = parseFloat((xlmamount1 * xlmPrice).toFixed(2));
     document.getElementById('xlmPriceElement1').textContent = "Valor: " + finalvalue1 + " euros.";
-    var investedAmount1 = 1839.38;
+    var investedAmount1 = 1964.59;
     document.getElementById('xlmInvestedAmount1').textContent = "Valor Investido: " + investedAmount1 + " euros.";
     var atualRetorn1 = parseFloat((xlmamount1 * xlmPrice).toFixed(2)) - investedAmount1;
     atualRetorn1 = parseFloat((atualRetorn1).toFixed(2))
